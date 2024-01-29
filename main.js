@@ -6,4 +6,8 @@ function moveBox() {
 
   box.style.transform = "translateX(" + newPosition + "px)";
 }
-moveBox();
+
+document.addEventListener("DOMContentLoaded", function() {
+  let button = document.getElementById("button");
+  button.addEventListener("click", moveBox);
+});
