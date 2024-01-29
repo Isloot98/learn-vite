@@ -6,3 +6,4 @@ function moveBox() {
 
   box.style.transform = "translateX(" + newPosition + "px)";
 }
+moveBox();
